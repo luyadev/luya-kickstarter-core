@@ -1,5 +1,5 @@
 # LUYA Core kickstart application
 
 ```
-composer create-project luyadev/luya-app-core:^1.0@dev
+composer create-project luyadev/luya-kickstarter-core:^1.0@dev
 ```
