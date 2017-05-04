@@ -1,7 +1,4 @@
-
 <?php
-
-define('YII_DEBUG', true);
 
 return [
     'components' => [
