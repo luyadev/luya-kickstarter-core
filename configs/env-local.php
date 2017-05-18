@@ -6,7 +6,6 @@ define('YII_ENV', 'local');
 $config = [
     'id' => 'myapp',
     'siteTitle' => 'My Application',
-    'luyaLanguage' => 'en',
     'basePath' => dirname(__DIR__),
     'components' => [
         'mail' => [
