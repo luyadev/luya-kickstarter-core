@@ -1,5 +1,36 @@
-/.settings/
-/.buildpath
-/.project
-/vendor/
-/composer.lock
+# netbeans
+/nbproject
+
+# PHPStorm
+.idea/
+
+# eclipse
+.buildpath
+.project
+.settings
+
+# composer vendor dir
+/vendor
+
+# composer itself
+composer.phar
+
+# mac DS_Store files
+.DS_Store
+
+/bin
+
+# public files
+#/public_html/assets
+#/public_html/storage
+
+# project config
+/configs/env-local-db.php
+/configs/server.php
+/configs/env.php
+
+# SASS
+/resources/.sass-cache
+
+# Compiled files
+/resources/local/
