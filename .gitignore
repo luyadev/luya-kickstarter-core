@@ -9,28 +9,19 @@
 .project
 .settings
 
-# composer vendor dir
+# folders and files
 /vendor
-
-# composer itself
-composer.phar
-
-# mac DS_Store files
-.DS_Store
-
 /bin
-
-# public files
-#/public_html/assets
-#/public_html/storage
+/runtime
+composer.phar
+.DS_Store
+luya
 
 # project config
 /configs/env-local-db.php
 /configs/server.php
 /configs/env.php
 
-# SASS
+# SASS & GULP
 /resources/.sass-cache
-
-# Compiled files
 /resources/local/
