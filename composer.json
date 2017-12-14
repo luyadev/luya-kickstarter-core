@@ -1,7 +1,7 @@
 {
     "name": "luyadev/luya-kickstarter-core",
     "description": "The kickstart project for a LUYA Core application.",
-    "type": "project",
+    "type": "luya-kickstarter",
     "license":"MIT",
     "require": {
         "luyadev/luya-core" : "1.0.0-RC4"
