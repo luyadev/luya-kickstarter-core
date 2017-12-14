@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://luya.io/img/luya_logo_flat_icon.png" alt="LUYA Logo"/>
+  <img src="https://github.com/luyadev/luya/blob/master/docs/logo/luya-logo-0.5x.png" alt="LUYA Logo"/>
 </p>
 
 # LUYA CORE Kickstarter Application
