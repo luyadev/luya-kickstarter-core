@@ -17,6 +17,6 @@ This project provides an ready to use LUYA Core application without admin or cms
 Run the following command in your Terminal.
 
 ```sh
-composer create-project luyadev/luya-kickstarter-core:^1.0@dev
+composer create-project luyadev/luya-kickstarter-core:dev-master
 ```
 
