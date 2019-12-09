@@ -9,21 +9,19 @@ $config = new Config('myproject', dirname(__DIR__), [
         '@npm'   => '@vendor/npm-asset',
     ],
     'components' => [
-        'components' => [
-            'mail' => [
-                'password' => '*********',
+        'mail' => [
+            'password' => '*********',
+        ],
+        'composition' => [
+            'default' => [
+                'langShortCode' => 'en'
             ],
-            'composition' => [
-                'default' => [
-                    'langShortCode' => 'en'
-                ],
-                'hidden' => true,
-            ],
-            'urlManager' => [
-                'rules' => [
-                    'home' => 'site/default/index',
-                    'contact' => 'site/default/contact',
-                ],
+            'hidden' => true,
+        ],
+        'urlManager' => [
+            'rules' => [
+                'home' => 'site/default/index',
+                'contact' => 'site/default/contact',
             ],
         ],
     ]
