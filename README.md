@@ -19,4 +19,3 @@ Run the following command in your Terminal.
 ```sh
 composer create-project luyadev/luya-kickstarter-core
 ```
-
