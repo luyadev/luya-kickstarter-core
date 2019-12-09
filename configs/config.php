@@ -30,7 +30,7 @@ $config = new Config('myproject', dirname(__DIR__), [
 $config->callback(function() {
     define('YII_DEBUG', true);
     define('YII_ENV', 'local');
-})->env(Config::ENV_DEV);
+})->env(Config::ENV_LOCAL);
 
 /*
 // docker mysql config
