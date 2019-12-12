@@ -35,7 +35,7 @@ $config->callback(function() {
 /*
 // docker mysql config
 $config->component('db', [
-    'dsn' => 'mysql:host=luya_db;dbname=luya_core_kickstarter',
+    'dsn' => 'mysql:host=luya_db;dbname=luya_core',
     'username' => 'luya',
     'password' => 'luya',
 ])->env(Config::ENV_LOCAL);
