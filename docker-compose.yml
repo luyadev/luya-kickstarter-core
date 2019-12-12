@@ -2,19 +2,14 @@ version: '2'
 
 services:
   luya_composer:
-    build:
-      context: ./docker/composer
-      args:
-        GITHUB_TOKEN: ${GITHUB_TOKEN}
+    image: composer:latest
     volumes:
       - ./:/app
-      - ./docker/env.php:/app/configs/env.php
     command: composer install
   luya_php:
     image: luyadev/luya-docker-php
     volumes:
       - ./:/app
-      - ./docker/env.php:/app/configs/env.php
   luya_db:
     image: mysql:5.7
     command:
@@ -22,14 +17,12 @@ services:
       - --collation-server=utf8_general_ci
     environment:
       MYSQL_ROOT_PASSWORD: luya
-      MYSQL_DATABASE: luya_core_kickstarter
+      MYSQL_DATABASE: luya_core
       MYSQL_USER: luya
       MYSQL_PASSWORD: luya
   luya_web:
-    image: nginx:latest
+    image: luyadev/luya-docker-nginx
     ports:
       - "8080:80"
     volumes:
       - ./:/app
-      - ./docker/env.php:/app/configs/env.php
-      - ./docker/site.conf:/etc/nginx/conf.d/default.conf
