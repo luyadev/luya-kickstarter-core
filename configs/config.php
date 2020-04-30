@@ -12,6 +12,12 @@ $config = new Config('myproject', dirname(__DIR__), [
         'mail' => [
             'password' => '*********',
         ],
+        /*
+        'db' => [
+            'class' => 'yii\db\Connection',
+            'charset' => 'utf8',
+        ],
+        */
         'composition' => [
             'default' => [
                 'langShortCode' => 'en'
